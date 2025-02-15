@@ -1,0 +1,21 @@
+.table{
+    width:1200px ;
+}
+thead {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}   
+
+thead,
+tfoot {
+  background-color: rgb(146, 196, 217);
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
